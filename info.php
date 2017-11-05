@@ -66,7 +66,7 @@ kirby()->routes(array(
 				'versions' => [
 					'kirby' => kirby::version(),
 					'toolkit' => toolkit::version(),
-					'panel-version' => $panelVersion
+					'panel' => $panelVersion
 				],
 				'server' => [
 					'php' => phpversion(),
